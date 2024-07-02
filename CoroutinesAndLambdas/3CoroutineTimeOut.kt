@@ -2,7 +2,7 @@ import kotlinx.coroutines.*
 fun main() = runBlocking {
     var i: Int = 0
     try {
-        withTimeout(2000L) {
+        withTimeout(1500L) {
             while(true) {
                 ++i
                 println("Task $i")
